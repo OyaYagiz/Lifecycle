@@ -3,6 +3,7 @@ import Pagination from "./components/classComp";
 import UserPage from "./components/UserPage";
 import CountDown from "./components/CountDown";
 import RefExample from "./newComponents/refExample";
+import FilterUser from "./newComponents/FilterUser";
 import { useState } from "react";
 
 const App = () => {
@@ -19,7 +20,8 @@ const App = () => {
       {/*<FunctionComp /> */}
       {/*<UserPage />*/}
       {/* <CountDown /> */}
-      <RefExample />
+      {/* <RefExample /> */}
+      <FilterUser />
       </>
     )}
     </div>
