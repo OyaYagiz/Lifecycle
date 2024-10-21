@@ -1,6 +1,8 @@
 const UserTable = ({users}) => {
-    console.log(users[0]);
-    return ( <table className="table table-dark table-striped
+    return ( 
+      <>
+      <h2>{users.length} Sonuç Bulundu </h2>
+    <table className="table table-dark table-striped
     table-hover table-responsive">
     <thead>
       <tr>
@@ -26,6 +28,7 @@ const UserTable = ({users}) => {
         ))}
     </tbody>
   </table>
+  </>
     );
 };
 
